@@ -6,7 +6,7 @@ echo "#       #     # #     # ##   ##   # #      #"
 echo "#       #     # #     # # # # #  #   #     #"
 echo "#####   #     # ######  #  #  # #     #    #"
 echo "#       #     # #   #   #     # #######    #"
-echo "#       #     # #    #  #     # #     #    # "
+echo "#       #     # #    #  #     # #     #    #"
 echo "#       ####### #     # #     # #     #    #"
 echo " "
 sudo fdisk -l
@@ -15,9 +15,10 @@ echo " "
 echo "+-+-+-+-+-+-+-+"
 echo "|C|A|U|T|I|O|N|"
 echo "+-+-+-+-+-+-+-+"
-echo "if the name of your storage device that you want to format is NOT /deb/sdb abort the process with ctrl+c and edit the script"
+echo "If the name of your storage device that you want to format is NOT /deb/sdb abort the process with ctrl+c and edit the script."
 sleep 1
 echo " "
+echo "Otherwise"
 read -p "press any key to continue ..."
 sudo umount /dev/sdb*
 sleep 1
